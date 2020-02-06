@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.amazon.jobhistory"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "microservice",
+    "baseName": "jobhistory",
+    "packageName": "com.amazon.jobhistory",
+    "packageFolder": "com/amazon/jobhistory",
+    "serverPort": "8080",
+    "authenticationType": "oauth2",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Njg5NWE2NGViN2E3YzdhZDMxMWIxZmNkZDU0NTNiZDViZDE2ODRjZGQwOGJmZDcxY2Y2ODA2OGIxMGI5MGQyNzhjMmUwMzAyNmE2OTZhNzdhNzExZmQ3NGIxYmExYWZiOWUwNGNmY2MwMDVkOTA3MWRlZTA3YzFjMjA3OWFkNjU=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1581004003630,
+    "testFrameworks": ["gatling", "cucumber"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

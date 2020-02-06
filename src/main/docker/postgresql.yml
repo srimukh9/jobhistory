@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jobhistory-postgresql:
+    image: postgres:11.6
+    # volumes:
+    #     - ~/volumes/jhipster/jobhistory/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=jobhistory
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
